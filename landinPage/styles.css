@@ -22,18 +22,19 @@
 
 .carousel-indicators .indi {
   cursor: pointer;
-  border: 1px solid red;
+  border:2px solid #cccccc;
   background-color: transparent; /* Change this to the color you want */
   border-radius: 50%; /* Make it round */
-  width: 10px; /* Set the width of the round indicator */
-  height: 10px; /* Set the height of the round indicator */
-  margin: 0 5px; /* Adjust spacing between indicators if needed */
+  width: 8px; /* Set the width of the round indicator */
+  height: 8px; /* Set the height of the round indicator */
+  margin: 0 3px; /* Adjust spacing between indicators if needed */
 }
 .carousel-indicators .active {
   background-color: red !important;
+  border: 2px solid red !important;
 }
 .carousel-indicators{
-  top: 21rem;
+  top: 18rem;
 }
 .img-slider{    border-width: 0px;
   border-color: rgb(0, 0, 0);
@@ -58,7 +59,7 @@
 .div-playbutton{    width: max-content;
   position: relative;
   right: -40%;
-bottom: 2rem;
+bottom: 4rem;
 cursor: pointer;
 }
 .strikethrough{
@@ -119,7 +120,7 @@ cursor: pointer;
 }
 .headerpaddingbottom{padding-bottom: 4rem;}
 .border-fourth-card{
-  border:1px solid #c5d8f3;
+  border:1px solid #c5d8f3 !important;
   border-radius: 13px;
   box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.14);
 }
@@ -197,18 +198,111 @@ background-color: red;
 color: #fff;
 text-decoration: none;
 }
+.px8rem{
+  padding: 0rem 8rem;
+}
 .carouselExampleIndicators{justify-content: flex-start !important; margin-left: 0 !important;}
 #fifthsec{
   background-image: -moz-linear-gradient( 0deg, rgb(255,230,231) 0%, rgb(234,242,254) 100%);
   background-image: -webkit-linear-gradient( 0deg, rgb(255,230,231) 0%, rgb(234,242,254) 100%);
   background-image: -ms-linear-gradient( 0deg, rgb(255,230,231) 0%, rgb(234,242,254) 100%);
 }
+.gradrectangle{
+     position: absolute;
+    transform: rotate(309deg);
+  background-image: -webkit-linear-gradient( 0deg, #ce4e5d 19%, #675b87 76%);
+  height: 400px;
+  width: 400px;
+  transform: rotate(310deg);
+  border-radius: 40px;
+  right: -15%;
+  bottom: -50%;
+}
+.navItemIndi{
+  display: flex;
+  width: 100%;
+  color: #000;
+}
+.flexcentrecontent{
+  display: flex;
+   align-items: center;
+}
+nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important
+}
+.nav-tabs .nav-link{
+  border:3px solid #c5d8f3;
+  border-radius: 13px;
+  box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.14);
+}
 
+.nav-item{width:85%}
+.navItemIndi > div{
+  padding: 0rem 1em;
+}
+.tab-pane >img {
+  position: relative;
+  right: 4rem;
+}
+.pdfdiv{
+  display: flex;
+    justify-content: center;
+    gap: 2rem;
 
+}
+.pdfdiv > div{
+  padding: 2rem 0rem 5rem 0rem;
+}
+.nav-item {
+  margin: 1.5rem 0rem;
+}
+.arrowgrad{
+  z-index: 10;
+  border-radius: 27px; background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 33.2px 6.8px rgba(245, 56, 67, 0.15);
+padding: 4rem;
+}
+.tabdiv{
+  padding-bottom: 4rem !important;
+}
+.macColor{
+  color:#888888
+}
+.rowArrow{
+  padding-top: 5rem;
+  align-items: center;
+}
+.alignmentDiv{
+  position: relative;
+  right: 10rem;
+}
+.rightfootgrad{
+  display: flex;
+  align-items: flex-start;
+}
 
+#seventhsec{
+background-image: -moz-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149) 76%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149) 76%);
+  background-image: -ms-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149) 76%);
 
-
-
+}
+.lr_footer{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+#eigthsec{
+  padding: 1rem 8rem 1rem 8rem;
+}
+.counterDiv{
+  padding: 3rem 0rem 5rem 0rem
+}
+.thirdsecContainer{
+  justify-content: space-evenly;
+}
+.pb8r{padding-bottom: 8rem;}
+.pr0{padding-right: 0px;} .pl0{padding-left: 0px;}
+#eigthsec>div>span{color:#888888}
 
 
 @media (max-width: 576px){
