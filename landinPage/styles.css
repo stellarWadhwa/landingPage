@@ -371,9 +371,9 @@ background-image: -moz-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149)
   .global_lr{
     padding: 0rem 1rem;
   }
-  .sec1,.digitalworldsec{
+  /* .sec1,.digitalworldsec{
     display: none;
-  }
+  } */
   .free_download ,.buy_now_btn { 
     display: flex;
   justify-content: center;}
@@ -389,6 +389,8 @@ background-image: -moz-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149)
  .leftfootgradspantwo{font-size: 12px;}
  #eigthsec>div>span{font-size: 9px;}
  #eigthsec{padding: 1rem;}
+
+
 }
 
 @media screen and (max-width: 767px){
@@ -414,4 +416,30 @@ background-image: -moz-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149)
   .spansavefifthsec{font-size: 18px; line-height: 22px;}
   .gradrecdiv {margin: 0rem 2rem;}
   .img-awesome{flex-direction: column;}
+  #seventhsec{flex-direction: column; align-items: center;}
+  .leftfootgrad{flex-direction: column;}
+  .verticlTallLine{display: none;}
+  .pdfdiv > div{padding: 2rem 0rem;}
 }
+
+@media screen and (max-width: 576px){
+  .spansavefifthsec{font-size: 14px; line-height: 16px;}
+  .free_download i span, .buy_now_btn i span {font-size: 10px;} .free_download i, .buy_now_btn i{font-size: 12px;}
+  .fifthsechead {font-size: 18px;}
+  .fourthsechead{    text-align: center;
+    font-size: 18px;}
+    .thirdsechead{ text-align: center; font-size: 18px;}
+    .thirdsecspanhead{font-size: 14px; text-align: center;}
+    .cardspanwidth{width: 100%;}
+    .thirdsecspancontent{font-size: 13pxs;}
+    .tab-content{margin-bottom: 2rem;}
+    #myTabContent{padding-left: 0;}
+    .pdfdiv > div{padding: 2rem 0rem;
+      flex-direction: column;
+      display: flex;
+      align-items: center}
+      .sixsectextpdf{text-align: center;font-size: 11px;}
+      .divrecslide img:first-child{padding-bottom: 0;}
+      .divrecslide span{font-size: 13px;}
+.abutton{flex-direction: column;}
+    }
