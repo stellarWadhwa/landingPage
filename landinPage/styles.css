@@ -497,6 +497,8 @@ padding: 2rem;
 
   }
   @media screen and (max-width: 576px){
+    .counterdivtext{font-size: 16px !important;}
+    .counterDiv{padding: 0rem 0rem 2rem 0rem;}
     .sixsechead{font-size: 16px !important;}
     .fifthsechead{font-size: 16px !important;}
     .thirdsechead{font-size: 16px !important;}
@@ -588,6 +590,7 @@ padding: 2rem;
       }
 
       @media screen and (max-width: 320px){
+        #myTabContent{margin-top: 0;}
         .tabdiv {padding: 0 !important;}
         digitalworldsec{bottom: 4rem;}
 .digitalworldsec span:first-child{font-size: 12px; }
