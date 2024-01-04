@@ -14,6 +14,7 @@
     <title>Stellar</title>
   </head>
   <body>
+    <span class="montserrat-font fz32 f700 counterdivtext" ><span id="counterdivtext" onclick=updateCounter(3)>0</span>M<sup class="counterdivtextsup">+</sup></span>
 
     <nav class="global_lr">
         <img class="img-fluid py-3" src="assets\images\logo-stellar.png" />
@@ -23,16 +24,16 @@
 
 <header class="global_lr hero1grad">
 
-    <section class="container-fluid pt75px pb8r pt-5 sec1" >
+    <section class="container-fluid pt75px pb8r pt-4 pt-5 sec1" >
         <div class="row " >
             <div class="col-lg-7 pl-0 pr-lg-5  pr-0 col-md-12 d-flex flex-column align-items-baseline  section1">
-                <div class="d-flex align-items-baseline pb-2 section1gap">
+                <div class="d-flex align-items-baseline pb-2 section1gap sec1imgsec">
                     <img class="img-fluid" src="assets\images\trustpilot-image.png"  />
                     <img class="img-fluid" src="assets\images\five-star-images.png" />
                     <span class="fz13 f800 opensans-font color555555 sec1reviews">742 Reviews</span>
-                    <img class="align-self-center" src="assets/images/arrowdownbtn.png"/>
+                    <img class="align-self-center arrow742" src="assets/images/arrowdownbtn.png"/>
                 </div>
-                <div class="pb-1">
+                <div class="pb-1 sec1redheaddiv">
                     <span class="montserrat-font fz18 f700 text-danger sec1redhead">STELLAR PHOTO RECOVERY</span>
                 </div>
                 <div class="  f700 fz32 pb-3"><span class="montserrat-font spansavesec1">Save Your Precious Moments: Restore Photos and Videos from Your SD Card</span></div>
@@ -52,9 +53,9 @@
                             
                             <i >Buy Now | <span class="f700 fz20">10% OFF</span> </i> </a>
                         </div>
-                        <div class="d-flex justify-content-center"> <span class=" opensans-font f700 fz12 macline  color888888"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div>
+                        <div class="d-flex justify-content-center firstmaclinediv"> <span class=" opensans-font f700 fz12 macline  color888888"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div>
                     </div>
-                    <div class="p-0 col-lg-5 col-md-12 heroWindowImgDiv">
+                    <div class="p-0 col-lg-5 col-md-12 heroWindowImgDiv d-flex align-items-center justify-content-center">
                 <img class="img-fluid heroWindowImg"  src="assets\images\heroWindowImg.png"/>
             </div>
         </div>
@@ -62,16 +63,24 @@
 </header>
     
     <section class="container  digitalworldsec" >
-        <div class="row py-3 px-4 digitalworldsectioncontainer" >
+        <!-- <div class="row py-3 px-4 digitalworldsectioncontainer" >
 <div class="col-lg-1 px-2">
     <img src="assets\images\digital-camera-world-gold.png" />
  </div>
 <div class="col flex-column d-flex justify-content-center p-0">
-    <span class="opensans-font f700 fz14">Digital Camera World</span>
+    <span class="opensans-font f700 fz14 spandigitalcameraw">Digital Camera World</span>
     <span class="opensans-font fz14">"Stellar Photo Recovery is Incredibly effective and effortless software to use & has the potential to rescue you from most data loss scenarios."</span>
     <span><img src="assets\images\5goldstar.png" /></span>
 </div>
-        </div>
+        </div> -->
+        <div class="media d-flex align-items-center">
+            <img class="mr-3" src="assets\images\digital-camera-world-gold.png" alt="Generic placeholder image">
+            <div class="media-body digiwmb flex-column d-flex">
+                <span class="opensans-font f700 fz14 spandigitalcameraw">Digital Camera World</span>
+                <span class="opensans-font fz14">"Stellar Photo Recovery is Incredibly effective and effortless software to use & has the potential to rescue you from most data loss scenarios."</span>
+                <span><img src="assets\images\5goldstar.png" /></span>
+            </div>
+          </div>
     </section>
  
 
@@ -160,14 +169,16 @@
                         <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
                         <div class="pt2rem divrecslide">
                             
-                          <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem" />
-                          <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered <br  /><span class="pl1rem spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos </span><br /><span class="pl1rem spanrecoversecslider spanrecoversecsliders3">from SD Card!</span></span>
-
-                            <img src="assets\images\colon-small.png" class="img-fluid"/>
+                          <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                      
+<span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+<span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+<span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                            <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                          
                          <span class="strikethrough"></span>
 
-                         <span class="pl1rem fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
+                         <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
      
                         </div>
                      <div class="pl1rem">
@@ -185,13 +196,16 @@
                                         <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
                                         <div class="pt2rem divrecslide">
                                             
-                                          <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem" />
-                                            <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered <br  /><span class="pl1rem spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos </span><br /><span class="pl1rem spanrecoversecslider spanrecoversecsliders3">from SD Card!</span></span>
-                                            <img src="assets\images\colon-small.png" class="img-fluid"/>
+                                          <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                                      
+                <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+                <span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+                <span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                                            <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                                          
                                          <span class="strikethrough"></span>
                 
-                                         <span class="pl1rem fz14 opensans-font f600 d-block pt1rem color333333">Wayne D.Bayer</span>
+                                         <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
                      
                                         </div>
                                      <div class="pl1rem">
@@ -209,13 +223,16 @@
                                                     <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
                                                     <div class="pt2rem divrecslide">
                                                         
-                                                      <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem" />
-                                                        <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider">Recovered <br  /><span class="pl1rem spanrecoversecslider">Hundreds of Photos </span><br /><span class="pl1rem spanrecoversecslider">from SD Card!</span></span>
-                                                        <img src="assets\images\colon-small.png" class="img-fluid"/>
+                                                      <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                                                  
+                            <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+                            <span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+                            <span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                                                        <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                                                      
                                                      <span class="strikethrough"></span>
                             
-                                                     <span class="pl1rem fz14 opensans-font f600 d-block pt1rem color333333">Wayne D.Bayer</span>
+                                                     <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
                                  
                                                     </div>
                                                  <div class="pl1rem">
@@ -233,13 +250,16 @@
                                                                 <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
                                                                 <div class="pt2rem divrecslide">
                                                                     
-                                                                  <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem" />
-                                                                    <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider">Recovered <br  /><span class="pl1rem spanrecoversecslider">Hundreds of Photos </span><br /><span class="pl1rem spanrecoversecslider">from SD Card!</span></span>
-                                                                    <img src="assets\images\colon-small.png" class="img-fluid"/>
+                                                                  <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                                                              
+                                        <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+                                        <span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+                                        <span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                                                                    <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                                                                  
                                                                  <span class="strikethrough"></span>
                                         
-                                                                 <span class="pl1rem fz14 opensans-font f600 d-block pt1rem color333333">Wayne D.Bayer</span>
+                                                                 <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
                                              
                                                                 </div>
                                                              <div class="pl1rem">
@@ -384,8 +404,15 @@
 </div>
 </section>
 <section id="fifthsec" class="global_lr">
-<div class="text-center sectionheadpadding"><span class="montserrat-font fz32 f700 fifthsechead">Honest Reviews from Our Valued Customers</span></div>
-<div class="text-center my-lg-5 my-4"><img class="img-fluid" src="assets/images/honestReviewsimg.png" /></div>
+<div class="text-center sectionheadpadding">
+    <span class="montserrat-font fz32 f700 fifthsechead">Honest Reviews from Our Valued Customers</span>
+</div>
+<!-- <div class="text-center my-lg-5 my-4"><img class="img-fluid" src="assets/images/honestReviewsimg.png" /></div> -->
+<div class="trustpilot-widget-div">
+    <div class="trustpilot-widget" data-locale="en-US" data-template-id="60f537b5b0f1639de1fe048c" data-businessunit-id="5405336c00006400057a12fe" data-style-height="140px" data-style-width="100%" data-theme="light" data-sku="Stellar Data Recovery Professional for Windows" data-review-languages="en" data-star-color="#00b67a" data-no-reviews="hide">
+    <a href="https://www.trustpilot.com/review/www.stellarinfo.com" target="_blank" rel="noopener">Trustpilot</a>
+    </div>
+</div>
 <div class="d-flex  g20 pb20 abutton abuttonbottom pt1rem justify-content-center">
                     
     <a href="https://www.stellarinfo.com/thankyou/wdrstd/thankyou.php?c=in" class="free_download ">
@@ -405,18 +432,18 @@
 
 </section>
 
-<section class="global_lr sixsec">
+<section class="global_lr sixsec ">
 <div class="sectionheadpadding text-center my-lg-3 my-1">
     <span class="montserrat-font fz32 f700 sixsechead">Why Choose Stellar?</span>
     </div>
 <div class="counterDiv">
 <div class="row " >
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 offset-lg-0 offset-sm-1 offset-md-0 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext">3M<sup class="counterdivtextsup">+</sup></span>
+        <span class="montserrat-font fz32 f700 counterdivtext" ><span id="counterdivtext" onclick=updateCounter(3)>3</span>M<sup class="counterdivtextsup">+</sup></span>
         <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">CUSTOMERS</span>
     </div>
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext">25<sup class="counterdivtextsup">+</sup></span>
+        <span class="montserrat-font fz32 f700 counterdivtext">25<sup class="counterdivtextsup" >+</sup></span>
         <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">YEARS OF EXPERIENCE</span>
     </div>
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 offset-sm-1 offset-lg-0 offset-md-0 d-flex flex-column align-items-center my-sm-3">
@@ -437,7 +464,7 @@
     </div>
 </div>
 </div>
-<div class="gradrecdiv">
+<div class="gradrecdiv ">
 <div class="row px-3  px-sm-3 pb-4 rowArrow" >
 <div class="col-lg-7 col-sm-12 d-flex flex-column rowArrowFirst" >
     <span class="montserrat-font fz18 f700 text-danger pb-2 spantryfifthsec ">TRY STELLAR PHOTO RECOVERY</span>
@@ -522,8 +549,6 @@
 
 
 
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <!-- <script>
@@ -532,9 +557,32 @@
         imgElement.src=imagesrc
     }
 </script> -->
+<script>
+    // let x=document.getElementById('counterdivtext')
+    // x.innerHTML=5;
 
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+function updateCounter(t) {
+     let x=document.getElementById('counterdivtext')
+     let currentCount=x.innerHTML;
+     console.log(currentCount);
+
+    if (currentCount < t) {
+      
+      currentCount++;
+      x.innerHTML=currentCount;
+    setTimeout(function () {
+          updateCounter(t);
+        }, 100);
+    }
+  }
+  
+</script>
+  
+  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
+
+
+     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  -->
   </body>
 </html>
