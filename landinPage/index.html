@@ -16,25 +16,22 @@
     <title>Stellar</title>
   </head>
   <body>
-    <!-- <span class="montserrat-font fz32 f700 counterdivtext" ><span id="counterdivtext" onclick="updateCounter(3,'counterdivtext')">0</span>M<sup >+</sup></span> -->
-
     <nav class="global_lr">
         <img class="img-fluid py-3" src="assets\images\logo-stellar.png" />
     </nav>
 
   <!-- Modal -->
-  <div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal fade " id="modalId" tabindex="-1"  onclick="closeModal()" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered YoutubePopup" role="document">
-      <div class="modal-content ">
+      <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle opensans-font f600">Stellar Data Recovery</h5>
           <button type="button" class="close closeYoutubePopup" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-            <!-- <iframe  width="100%" height="400px"  src="https://www.youtube.com/embed/3pnV9fu7N-E?si=8Zy6NUtlIN043ARq?autoplay=1"   title="YouTube video player" frameborder="0" allow="autoplay" autoplay allowfullscreen></iframe> -->
-            <iframe class="iframeYoutube"  src="https://www.youtube.com/embed/3pnV9fu7N-E?autoplay=1" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+        <div class="modal-body" id="yt-player">
+            <iframe  id="myiframe" class="iframeYoutube"  src="https://www.youtube.com/embed/3pnV9fu7N-E?autoplay=1"   class="embed-responsive-item" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
  
         </div>
   
@@ -61,9 +58,9 @@
                     
                 </div>
                 <div class="pb-1 sec1redheaddiv">
-                    <span class="montserrat-font fz18 f700 text-danger sec1redhead">STELLAR PHOTO RECOVERY</span>
+                    <span class=" fz18 f700 text-danger sec1redhead">STELLAR PHOTO RECOVERY</span>
                 </div>
-                <div class="  f700 fz32 pb-3"><span class="montserrat-font spansavesec1">Save Your Precious Moments: Restore Photos and Videos from Your SD Card</span></div>
+                <div class="  f700 fz32 pb-3"><span class=" spansavesec1">Save Your Precious Moments: Restore Photos and Videos from Your SD Card</span></div>
                 <div class="  pb-lg-5 pb-4 color5f5f60 spaneffortsec1pdiv"><span class="opensans-font fz16 spaneffortsec1">Effortlessly recover photos and videos from any SD card with our simple, fast and effective Windows PC SD card recovery tool.</span></div>
                 <div class="d-flex  g20 pb20 abutton">
                     
@@ -80,7 +77,8 @@
                             
                             <i >Buy Now | <span class="f700 fz20">10% OFF</span> </i> </a>
                         </div>
-                        <div class="d-flex justify-content-center firstmaclinediv"> <span class=" opensans-font f700 fz12 macline  color888888"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div>
+                        <div class="d-flex justify-content-center firstmaclinediv"> 
+                             <a href="https://www.stellarinfo.com/">                                <span class=" opensans-font f700 fz12 macline  color888888"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div> </a>
                     </div>
                     <div class="p-0 col-lg-5 col-md-12 heroWindowImgDiv d-flex align-items-center justify-content-center">
                 <img class="img-fluid heroWindowImg"  src="assets\images\heroWindowImg.png"/>
@@ -90,18 +88,8 @@
 </header>
     
     <section class="container  digitalworldsec" >
-        <!-- <div class="row py-3 px-4 digitalworldsectioncontainer" >
-<div class="col-lg-1 px-2">
-    <img src="assets\images\digital-camera-world-gold.png" />
- </div>
-<div class="col flex-column d-flex justify-content-center p-0">
-    <span class="opensans-font f700 fz14 spandigitalcameraw">Digital Camera World</span>
-    <span class="opensans-font fz14">"Stellar Photo Recovery is Incredibly effective and effortless software to use & has the potential to rescue you from most data loss scenarios."</span>
-    <span><img src="assets\images\5goldstar.png" /></span>
-</div>
-        </div> -->
         <div class="media d-flex align-items-center">
-            <img class="mr-3" src="assets\images\digital-camera-world-gold.png" alt="Generic placeholder image">
+            <img class="mr-lg-3" src="assets\images\digital-camera-world-gold.png" alt="Generic placeholder image">
             <div class="media-body digiwmb flex-column d-flex">
                 <span class="opensans-font f700 fz14 spandigitalcameraw">Digital Camera World</span>
                 <span class="opensans-font fz14">"Stellar Photo Recovery is Incredibly effective and effortless software to use & has the potential to rescue you from most data loss scenarios."</span>
@@ -114,10 +102,10 @@
 
     <section class="global_lr secondsection">
         <div class="text-center headerpaddingbottom">
-            <span class="montserrat-font fz32 f700 awesomefspan">Awesome Features</span>
+            <span class=" fz32 f700 awesomefspan">Awesome Features</span>
         </div>
         <div class="row sliderrow">
-            <div class="col-lg-7 col-md-10 pr-lg-5 ">
+            <div class="col-lg-7 col-md-10 pr-xl-5 ">
                 <div class=" row">
                     <div class="media col-lg-6 sliderrowDiv col-sm-6">
                         <img class="img-fluid pr1r mb-sm-3 awesomeimg"  src="assets\images\Recover-SD-Cards.png" />
@@ -176,10 +164,10 @@
                             
                             <i >Buy Now | <span class="f700 fz20">10% OFF</span> </i> </a>
                         </div>
-                        <div class="maclineaf"> <span class=" opensans-font f700 fz12 macline color888888"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div>
+                        <div class="maclineaf"> <a href="https://www.stellarinfo.com/">    <span class=" opensans-font f700 fz12 macline color888888"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div></a>
 
             </div>
-            <div class="col-lg-5 col-md-8 col-sm-10 pl-lg-5 posrel">
+            <div class="col-lg-5 col-md-8 col-sm-10 pl-lg-5 pr-lg-3 ">
              
                 <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
                     <ol class="carousel-indicators carouselExampleIndicators">
@@ -192,26 +180,26 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <div class="carousel-box">
-                        <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
-                        <div class="pt2rem divrecslide">
+                      <div class="carousel-box" data-toggle="modal" data-target="#modalId"  onclick=modalOpen() >
+                        <span class="slidertestimonial  fz9 f700">Testimonials</span>
+                        <div class="pt2rem divrecslide " >
                             
-                          <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                          <img src="assets\images\colon-big.png" class="img-fluid d-block bigcolonimg" />
                       
-<span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
-<span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
-<span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+<span class=" fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+<span class="\n  fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+<span class=" spanrecoversecslider spanrecoversecsliders3 fz20 f700 lh1 color555555">from SD Card!</span>
                             <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                          
                          <span class="strikethrough"></span>
 
-                         <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
+                         <span class="fz14 opensans-font f600 d-block  color333333 spanrecoversecslidername">Wayne D.Bayer</span>
      
                         </div>
-                     <div class="pl1rem">
+                     <div >
                      </div>
                      <div class="div-playbutton">
-                         <img src="assets\images\play-button.png" class="img-fluid" type="button"  data-toggle="modal" data-target="#exampleModalCenter" />
+                         <img src="assets\images\play-button.png" class="img-fluid" type="button"   />
                         </div>
                         <div class="img-slider">
                          <img class="img-fluid" src="assets\images\slider-man.png" />
@@ -219,26 +207,26 @@
                     </div>
                                 </div>
                                 <div class="carousel-item ">
-                                    <div class="carousel-box">
-                                        <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
+                                    <div class="carousel-box"  data-toggle="modal" data-target="#modalId" onclick=modalOpen()>
+                                        <span class="slidertestimonial fz9 f700">Testimonials</span>
                                         <div class="pt2rem divrecslide">
                                             
-                                          <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                                          <img src="assets\images\colon-big.png" class="img-fluid d-block bigcolonimg" />
                                       
-                <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
-                <span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
-                <span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                <span class=" fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+                <span class="\n  fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+                <span class=" spanrecoversecslider spanrecoversecsliders3 fz20 f700 lh1 color555555">from SD Card!</span>
                                             <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                                          
                                          <span class="strikethrough"></span>
                 
-                                         <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
+                                         <span class="fz14 opensans-font f600 d-block  color333333 spanrecoversecslidername">Wayne D.Bayer</span>
                      
                                         </div>
-                                     <div class="pl1rem">
+                                     <div>
                                      </div>
                                      <div class="div-playbutton">
-                                        <img src="assets\images\play-button.png" class="img-fluid" type="button"  data-toggle="modal" data-target="#exampleModalCenter" />
+                                        <img src="assets\images\play-button.png" class="img-fluid" type="button"   />
 
                                         </div>
                                         <div class="img-slider">
@@ -247,15 +235,15 @@
                                     </div>
                                               </div>
                                               <div class="carousel-item ">
-                                                <div class="carousel-box">
-                                                    <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
+                                                <div class="carousel-box"  data-toggle="modal" data-target="#modalId" onclick=modalOpen()>
+                                                    <span class="slidertestimonial fz9 f700">Testimonials</span>
                                                     <div class="pt2rem divrecslide">
                                                         
-                                                      <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                                                      <img src="assets\images\colon-big.png" class="img-fluid d-block   bigcolonimg" />
                                                   
-                            <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
-                            <span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
-                            <span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                            <span class=" fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+                            <span class="\n  fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+                            <span class=" spanrecoversecslider spanrecoversecsliders3 fz20 f700 lh1 color555555">from SD Card!</span>
                                                         <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                                                      
                                                      <span class="strikethrough"></span>
@@ -263,10 +251,10 @@
                                                      <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
                                  
                                                     </div>
-                                                 <div class="pl1rem">
+                                                 <div>
                                                  </div>
                                                  <div class="div-playbutton">
-                                                    <img src="assets\images\play-button.png" class="img-fluid" type="button"  data-toggle="modal" data-target="#exampleModalCenter" />
+                                                    <img src="assets\images\play-button.png" class="img-fluid" type="button"/>
 
                                                     </div>
                                                     <div class="img-slider">
@@ -275,15 +263,15 @@
                                                 </div>
                                                          </div>
                                                          <div class="carousel-item ">
-                                                            <div class="carousel-box">
-                                                                <span class="slidertestimonial montserrat-font fz9 f700">Testimonials</span>
+                                                            <div class="carousel-box"  data-toggle="modal" data-target="#modalId" onclick=modalOpen()>
+                                                                <span class="slidertestimonial fz9 f700">Testimonials</span>
                                                                 <div class="pt2rem divrecslide">
                                                                     
-                                                                  <img src="assets\images\colon-big.png" class="img-fluid d-block pl1rem pb1rem bigcolonimg" />
+                                                                  <img src="assets\images\colon-big.png" class="img-fluid d-block   bigcolonimg" />
                                                               
-                                        <span class="pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
-                                        <span class="\n pl1rem montserrat-font fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
-                                        <span class="pl1rem spanrecoversecslider spanrecoversecsliders3 montserrat-font fz20 f700 lh1 color555555">from SD Card!</span>
+                                        <span class=" fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders1">Recovered</span>
+                                        <span class="\n  fz20 f700 lh1 color555555 spanrecoversecslider spanrecoversecsliders2">Hundreds of Photos</span>
+                                        <span class=" spanrecoversecslider spanrecoversecsliders3 fz20 f700 lh1 color555555">from SD Card!</span>
                                                                     <img src="assets\images\colon-small.png" class="img-fluid smallcolonimg"/>
                                                                  
                                                                  <span class="strikethrough"></span>
@@ -291,10 +279,10 @@
                                                                  <span class="fz14 opensans-font f600 d-block pt1rem color333333 spanrecoversecslidername">Wayne D.Bayer</span>
                                              
                                                                 </div>
-                                                             <div class="pl1rem">
+                                                             <div>
                                                              </div>
                                                              <div class="div-playbutton">
-                                                                <img src="assets\images\play-button.png" class="img-fluid" type="button"  data-toggle="modal" data-target="#exampleModalCenter" />
+                                                                <img src="assets\images\play-button.png" class="img-fluid" type="button"  />
 
                                                                 </div>
                                                                 <div class="img-slider">
@@ -313,14 +301,8 @@
         </div>
         </div>
     </section>
-        
-    
-
-
-    
-
         <section id="thirdsection" class="global_lr">
-            <div class="section3head d-flex justify-content-center py-3"><span class=" montserrat-font f700 fz32 sectionheadpadding thirdsechead">Recover Deleted Data From All Types SD Card</span></div>
+            <div class="section3head d-flex justify-content-center py-3"><span class=" f700 fz32 sectionheadpadding thirdsechead">Recover Deleted Data From All Types SD Card</span></div>
             <div class="container pb-5">
 
                 <div class="row thirdsecContainer">
@@ -369,7 +351,7 @@
         </section>
 <section id="fourthsection" class="global_lr ">
 <div class="4sechead d-flex justify-content-center sectionheadpadding">
-    <span class="montserrat-font f700 fz32 sectionheadpadding fourthsechead">Supported File Types for SD Card Recovery</span>
+    <span class=" f700 fz32 sectionheadpadding fourthsechead">Supported File Types for SD Card Recovery</span>
 </div>
 <div class="4seccontent fourseccontent">
     <div  class="d-flex px8rem tabdiv " >
@@ -380,7 +362,7 @@
                 <div class="navItemIndi">
                     <div class="flexcentrecontent">    <img class="navItemIndiimg img-fluid" src="assets\images\section4imgfile.png "    /></div>
                     <div>
-                        <span class="displayblock montserrat-font fz16 f700  headjpgsec4">Image Files</span>
+                        <span class="displayblock fz16 f700  headjpgsec4">Image Files</span>
                                 <span class="opensans-font fz16 spanjpgsec4">JPG, TIFF/TIF, PNG, BMP, GIF, PSD, CRW, CR2, NEF, ORF, RAF, SR2, MRW, DCR, WMF, DNG, ERF, RAW, etc</span>
                     </div>
                 </div>
@@ -394,7 +376,7 @@
                 <div class="navItemIndi">
                     <div class="flexcentrecontent">    <img src="assets\images\section4vidfile.png"  class="navItemIndiimg img-fluid" /></div>
                     <div>
-                        <span class="displayblock montserrat-font fz16 f700  headjpgsec4">Video Files</span>
+                        <span class="displayblock fz16 f700  headjpgsec4">Video Files</span>
                         <span class="opensans-font fz16 spanjpgsec4">AVI, MOV, MP4, M4V, 3GP, 3G2, WMV, ASF, FLV, SWF, MPG, RM/RMVB, etc</span>
                     </div>
                 </div>
@@ -408,7 +390,7 @@
                 <div class="navItemIndi">
                     <div class="flexcentrecontent">    <img src="assets\images\section4audfile.png "   class="navItemIndiimg img-fluid" /></div>
                     <div>
-                        <span class="displayblock montserrat-font fz16 f700  headjpgsec4">Audio Files</span>
+                        <span class="displayblock fz16 f700  headjpgsec4">Audio Files</span>
                                 <span class="opensans-font fz16 spanjpgsec4">AIF/AIFF, M4A, MP3, WAV, WMA, MID/MIDI, OGG, AAC, etc</span>
                     </div>
                 </div>
@@ -435,7 +417,7 @@
 </section>
 <section id="fifthsec" class="global_lr">
 <div class="text-center sectionheadpadding">
-    <span class="montserrat-font fz32 f700 fifthsechead">Honest Reviews from Our Valued Customers</span>
+    <span class=" fz32 f700 fifthsechead">Honest Reviews from Our Valued Customers</span>
 </div>
 <!-- <div class="text-center my-lg-5 my-4"><img class="img-fluid" src="assets/images/honestReviewsimg.png" /></div> -->
 <div class="trustpilot-widget-div">
@@ -458,48 +440,48 @@
             
             <i >Buy Now | <span class="f700 fz20">10% OFF</span> </i> </a>
         </div>
-        <div class="text-center pb-4"> <span class=" opensans-font f700 fz12 macline mcl color888888 ml-lg-4"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div>
+        <div class="text-center pb-4 midmaclinep"> <a href="https://www.stellarinfo.com/">    <span class=" opensans-font f700 fz12 macline mcl color888888 ml-lg-4"><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div></a>
 
 </section>
 
 <section class="global_lr sixsec ">
 <div class="sectionheadpadding text-center my-lg-3 my-1">
-    <span class="montserrat-font fz32 f700 sixsechead">Why Choose Stellar?</span>
+    <span class=" fz32 f700 sixsechead">Why Choose Stellar?</span>
     </div>
 <div class="counterDiv" id="counter">
 <div class="row " >
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 offset-lg-0 offset-sm-1 offset-md-0 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext" ><span class="counter-value" id="counterdivtext"data-count="3">0</span>M<sup >+</sup></span>
+        <span class=" fz32 f700 counterdivtext" ><span class="counter-value" id="counterdivtext"data-count="3">0</span>M<sup >+</sup></span>
 
-        <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">CUSTOMERS</span>
+        <span class=" fz12 f700 counterdivspanwidth text-center maxwidth">CUSTOMERS</span>
     </div>
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="25">0</span><sup>+</sup></span>
-        <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">YEARS OF EXPERIENCE</span>
+        <span class=" fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="25">0</span><sup>+</sup></span>
+        <span class=" fz12 f700 counterdivspanwidth text-center maxwidth">YEARS OF EXPERIENCE</span>
     </div>
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 offset-sm-1 offset-lg-0 offset-md-0 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="100">0</span><sup>+</sup></span>
-        <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">R&D ENGINEERS</span>
+        <span class=" fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="100">0</span><sup>+</sup></span>
+        <span class=" fz12 f700 counterdivspanwidth text-center maxwidth">R&D ENGINEERS</span>
     </div>
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="190">0</span><sup>+</sup></span>
-        <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">COUNTRIES</span>
+        <span class=" fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="190">0</span><sup>+</sup></span>
+        <span class=" fz12 f700 counterdivspanwidth text-center maxwidth">COUNTRIES</span>
     </div>
     <div class="col-lg-2 col-md-4 my-md-2 col-sm-5 col-6 my-2 offset-sm-1 offset-lg-0 offset-md-0 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="8000">0</span><sup>+</sup></span>
-        <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">PARTNERS</span>
+        <span class=" fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="8000">0</span><sup>+</sup></span>
+        <span class=" fz12 f700 counterdivspanwidth text-center maxwidth">PARTNERS</span>
     </div>
     <div class="col-lg-2  col-md-4 my-md-2 col-sm-5 col-6 my-2 d-flex flex-column align-items-center my-sm-3">
-        <span class="montserrat-font fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="100">0</span><sup>+</sup></span>
-        <span class="montserrat-font fz12 f700 counterdivspanwidth text-center maxwidth">AWARDS RECEIVED</span>
+        <span class=" fz32 f700 counterdivtext"><span class="counter-value" id="counterdivtext" data-count="100">0</span><sup>+</sup></span>
+        <span class=" fz12 f700 counterdivspanwidth text-center maxwidth">AWARDS RECEIVED</span>
     </div>
 </div>
 </div>
 <div class="gradrecdiv ">
 <div class="row px-3  px-sm-3 pb-4 rowArrow" >
 <div class="col-lg-7 col-sm-12 d-flex flex-column rowArrowFirst" >
-    <span class="montserrat-font fz18 f700 text-danger pb-2 spantryfifthsec ">TRY STELLAR PHOTO RECOVERY</span>
-    <span class="montserrat-font f700 fz26  lh35px spansavefifthsec ">Save Your Precious Moments: Restore Photos and Videos from Your SD Card</span>
+    <span class=" fz18 f700 text-danger pb-2 spantryfifthsec ">TRY STELLAR PHOTO RECOVERY</span>
+    <span class=" f700 fz26  lh35px spansavefifthsec ">Save Your Precious Moments: Restore Photos and Videos from Your SD Card</span>
     <div class="d-flex  g20  abutton abuttongrad ">
                     
         <a href="https://www.stellarinfo.com/thankyou/wdrstd/thankyou.php?c=in" class="free_download ">
@@ -520,7 +502,7 @@
         <img src="assets/images/bigrightarrow.png" class="img-fluid arrowgradimg"/>
     
 </div>
-<div class="d-flex justify-content-center maclinearrow"> <span class=" opensans-font f700 fz12 macline  maclinelast macColor ml-lg-5" ><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div>
+<div class="d-flex justify-content-center maclinearrow">  <a href="https://www.stellarinfo.com/">   <span class=" opensans-font f700 fz12 macline  maclinelast macColor ml-lg-5" ><img src="assets/images/mac.png" /> Also available for Mac OS X</span></div></a>
 </div>
 <div class="gradrectangle"></div>
 
@@ -550,7 +532,7 @@
 <img src="assets/images/Layer 150.png" class=" img-fluid mb-sm-3 mb-3" />
 <img src="assets/images/verticalTallWhiteLine.png" class="pr-4 img-fluid verticlTallLine " />
 <div class="   leftfootgraddiv">
-    <span class="montserrat-font fz18 f700 colorfff leftfootgradspanone ">TECHNOLOGY YOU CAN TRUST <br /> <span class="fz16 f400 leftfootgradspantwo">A Brand Present Accross The Globe</span></span>
+    <span class=" fz18 f700 colorfff leftfootgradspanone ">TECHNOLOGY YOU CAN TRUST <br /> <span class="fz16 f400 leftfootgradspantwo">A Brand Present Accross The Globe</span></span>
 
 </div>
     </div>
@@ -561,7 +543,7 @@
 </section>
 <section id="eigthsec">
     <div class="d-flex">
-        <span class="montserrat-font fz13">Stellar & Stellar Data Recovery are Registered Trademarks of Stellar Information Technology Pvt. Ltd. <br /><span>© Copyright 2023 Stellar Information Technology Pvt. Ltd. All Trademarks Acknowledged.</span></span>
+        <span class=" fz13">Stellar & Stellar Data Recovery are Registered Trademarks of Stellar Information Technology Pvt. Ltd. <br /><span>© Copyright 2023 Stellar Information Technology Pvt. Ltd. All Trademarks Acknowledged.</span></span>
     </div>
 </section>
 
@@ -621,24 +603,25 @@ function updateCounter(t,id,time) {
   }
   
 </script>
-<!-- <script>
-    function handleScroll() {
-      if (window.scrollY >= 2800) {
-        updateCounter(3,'counterdivtext',8);
-        updateCounter(25,'counterdivtext2',10);
-        updateCounter(100,'counterdivtext3',200);
-        updateCounter(190,'counterdivtext4',130);
-        updateCounter8000(8000,'counterdivtext5');
-        updateCounter(100,'counterdivtext6',160)
-      }
-    }
-    window.onscroll = handleScroll;
-  </script> -->
 
 <script>
+    
+function closeModal(){
+    console.log("sss")
+    var x= document.getElementById("myiframe");
+    x.src="";
+}
+function modalOpen(){
+    var x=document.getElementById("myiframe");
+    console.log(x);
+    x.src="https://www.youtube.com/embed/3pnV9fu7N-E?autoplay=1"
+    console.log(x);
+
+}
+
     var a = 0;
     $(window).scroll(function() {
-        console.log('ss')
+ 
   var oTop = $('#counter').offset().top - window.innerHeight;
   if (a == 0 && $(window).scrollTop() > oTop) {
     $('.counter-value').each(function() {
@@ -663,16 +646,15 @@ function updateCounter(t,id,time) {
     a = 1;
   }
 }); 
-</script>
 
+</script>
 
   
   <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
 
 
 <!-- jquery CDN -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    
+          
     <!-- Bootstrap.register CDN -->
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
