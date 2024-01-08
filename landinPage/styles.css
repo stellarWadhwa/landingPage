@@ -1,7 +1,11 @@
-.hero1{ background-color: beige;}
+*{font-family:'Montserrat', sans-serif; }
+.divrecslide    span {margin-left: 1rem;} .divrecslide  img:first-child {margin-left: 1rem;padding-bottom: 1rem;}
+a:hover{text-decoration: none !important;}
+.smallcolonimg{margin-left: 0rem ;}
 sup{position: static  !important; vertical-align: super !important;}
-.montserrat-font{font-family: 'Montserrat', sans-serif;}
+/* .montserrat-font{font-family: 'Montserrat', sans-serif;} */
 .opensans-font{font-family: 'Open Sans', sans-serif;}
+.carousel-box{cursor: pointer;}
 .f400{font-weight:400;} .f500{font-weight:500;} .f600{font-weight:600;} .f700{font-weight:700; } .f800{font-weight:800;}
 .fz13{font-size: 13px;} .fz32{font-size: 32px;} .fz16{font-size: 16px;} .fz22{font-size: 22px;} .fz12{font-size: 12px;} .fz18{font-size: 18px;} .fz24{font-size: 24px;} .fz9{font-size:9px} .fz44{font-size:44px} .fz20{font-size:20px} .fz15{font-size:15px} .fz14{font-size: 14px;} .fz26{font-size:26px} 
 .globe_lr{padding-left: 4rem; padding-right: 4rem;}
@@ -9,14 +13,14 @@ sup{position: static  !important; vertical-align: super !important;}
 .YoutubePopup{ max-width: 850px !important; position: relative; bottom: 2rem;}
 .iframeYoutube{width: 100%; height: 400px;}
 .YoutubePopup .modal-body{padding:0;}
+.awesomeimg{padding-right: 1rem;}
 .closeYoutubePopup{background: #e11f26 !important;  border-radius: 35px;  padding: 5px 8px !important;  position: relative;  color: #fff !important;  bottom: 1rem;  left: 1rem; opacity: 1 !important; font-size: 20px !important;}
-.spanrecoversecslidername{padding-top: 0.5rem; padding-left: 1rem;}
+.spanrecoversecslidername{padding-top: 0.5rem}
 .spanrecoversecsliders1, .spanrecoversecsliders2{display: block;padding-bottom: 0.3rem;}
 .c-item >img{width: 30% !important;}
 .c-item {width: fit-content;}
 .pdfdiv div{display: flex; align-items: baseline;}
 .pdfdiv div img {padding-right: 0.4rem;}
-
 .carousel-indicators .indi { cursor: pointer; border:2px solid #cccccc; background-color: transparent; /* Change this to the color you want */ border-radius: 50%; /* Make it round */ width: 8px; /* Set the width of the round indicator */ height: 8px; /* Set the height of the round indicator */ margin: 0 3px; /* Adjust spacing between indicators if needed */}
 .carousel-indicators .active {background-color: red !important;border: 2px solid red !important;}
 .carousel-indicators{ top: 19.5rem;}
@@ -42,24 +46,11 @@ sup{position: static  !important; vertical-align: super !important;}
 .cardspanwidth{width: 60%;}
 .spanrecoversecslidername{padding-bottom: 0.4rem;}
 .psec3card{padding: 1rem 0px;}
-/* #fourthsection{background-color:antiquewhite} */
 .sectionheadpadding{padding: 1rem 0rem 1rem 0rem;}
 .bgtest{background-color: #c5d8f3;}
 .pt16{padding: 16px 0px;}
 .pt5{padding-top: 10px;}
 .displayblock{display: block;}
-.pb25{padding-bottom: 25px;}
-.pb35{padding-bottom: 35px;}
-.pb45{padding-bottom: 45px;}
-.pb20{padding-bottom: 20px;}
-.pl30{padding-left: 30px;}
-.pt100{padding-top: 100px;}
-.pr1r{padding-right: 1rem;}
-.pb100{padding-bottom: 100px;}
-.pb10r{padding-bottom: 10rem;}
- .ml1r{margin-left: 1rem !important;}
- .pl1rem{padding-left: 1rem;}
-/* .hero2{padding: 100px 8rem;} */
 .border-slider{border:solid #c5d8f3 1px; border-radius:20px ;}
 .digitalworldsec{    border: 1px solid #c5d8f3;border-radius: 18px;position: relative;bottom: 6rem;background: #fff;box-shadow: 0px 0px 28.8px 11.2px rgba(0, 0, 0, 0.07);}
 .secondsection{margin-top: -2rem;}
@@ -89,6 +80,7 @@ sup{position: static  !important; vertical-align: super !important;}
 .colora0a0a0{color: #a0a0a0;}
 .color333333{color:#333333} .colorfff{color: #fff;}
 .posrel{  position: relative;}
+.sliderDivP{padding-right: 2rem;}
 .carousel-box{  border:solid #c5d8f3 1px; border-radius:20px ; box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.14);}
 .navItemIndiimg{object-fit: contain;min-width: 50px;}
 .sixsec{ text-align: -webkit-center;}
@@ -111,25 +103,19 @@ nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{box-shadow: rgba(0
 .color5f5f60{color:#5f5f60}
 .pdfdiv{display: flex;justify-content: center;gap: 2rem;}
 .pdfdiv > div{ padding: 2rem 0rem 2rem 0rem;}
-.nav-item {margin: 2.5rem 0rem;}
-/* .arrowgrad{
-  z-index: 10;
-  border-radius: 27px; background-color: rgb(255, 255, 255);
-box-shadow: 0px 0px 33.2px 6.8px rgba(245, 56, 67, 0.15);
-padding: 5rem;
-} */
+.nav-item {margin: 2.5rem 0;}
 .arrowgrad{padding-left: 30px;}
 .arrowgradimg{z-index: 10; border-radius: 27px; background-color: rgb(255, 255, 255);box-shadow: 0px 0px 33.2px 6.8px rgba(245, 56, 67, 0.15);padding: 3rem 2rem;}
-.tabdiv{padding-bottom: 4rem !important;}
+.tabdiv{padding-bottom: 4rem;}
 .macColor{color:#888888}
 .rowArrow{padding-top: 3rem;align-items: center;}
 .abuttongrad a {margin-bottom: 0.25rem;}
 .alignmentDiv{position: relative;right: 10rem;}
 .rightfootgrad{display: flex;align-items: flex-start;}
 #seventhsec{background-image: -moz-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149) 76%);background-image: -webkit-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149) 76%);background-image: -ms-linear-gradient( 0deg, rgb(245,56,67) 19%, rgb(47,87,149) 76%);}
-.lr_footer{padding-left: 8rem;padding-right: 8rem;}
-#eigthsec{padding: 1rem 8rem 1rem 8rem;}
-.counterDiv{padding: 1rem 0rem 5rem 0rem;max-width: 1200px;}
+.lr_footer{padding-left: 4rem;padding-right: 4rem;}
+#eigthsec{padding: 1rem 4rem 1rem 4rem;}
+.counterDiv{padding: 1rem 0rem 5rem 2rem;max-width: 1200px;}
 .thirdsecContainer{justify-content: space-evenly;}
 .pb8r{padding-bottom: 8rem;}
 .pr0{padding-right: 0px;} .pl0{padding-left: 0px;}
@@ -195,6 +181,8 @@ nav{padding: 0 !important;}
 .spanrecoversecslidername{padding-top: 0.8rem;}
 .gradrectangle{bottom: -35%;}}
 .rowArrowFirst{margin-left: 2rem;}
+.firstmaclinediv, .maclineaf,.midmaclinep{margin-top: -2rem;}
+.maclinearrow{margin-top: -1rem;}
 
 @media screen and (max-width: 992px) {
 .mcl{right: 7rem;};
@@ -229,7 +217,7 @@ nav{padding: 0 !important;}
 #eigthsec>div>span{font-size: 12px;}
 #eigthsec{padding: 1rem;}
 .arrowgradimg{padding:2.3rem 2rem ;}
-.maclinearrow{align-self: baseline !important; margin-left: 1rem !important;}
+.maclinearrow{align-self: center; margin-left: 1rem !important;}
 .sliderrow{    flex-direction: column-reverse; align-items: center;}
 .img-slider{width: 160px;}
 .thirdsechead {font-size: 22px !important;}
@@ -240,7 +228,6 @@ nav{padding: 0 !important;}
 .leftfootgraddiv{width: -webkit-fill-available; text-align: center;}
 .carousel-indicators{margin-right: 0 !important;}
 .carouselExampleIndicators{justify-content: center !important;}
-.iframeYoutube{height: auto;}
 .YoutubePopup{ width: 600px !important;} }
 
 
@@ -278,7 +265,10 @@ padding: 2rem;
 .free_download i, .buy_now_btn i {font-size: 12px !important;}}  }
 
   @media screen and (max-width: 576px){
-.YoutubePopup .modal-content{width: 60% !important; margin: auto;}
+    #eigthsec{text-align: center;}
+    .modal-header h5{font-size: 16px;}
+    .iframeYoutube{height: auto;}
+.YoutubePopup .modal-content {    width: 50% ;    margin-left: 2rem;}
 .heroWindowImgDiv img {max-width: 120%;}
 .img-slider {height: auto; width: 115px;}
 .arrow742 {position: relative !important; top: 12%;}
@@ -289,7 +279,6 @@ padding: 2rem;
 .firstmaclinediv{margin: auto; padding-top: 0.8rem; }
 .firstmaclinediv .macline{font-size: 12px}
 nav img{width: 120px;}
-.counterdivtext{font-size: 16px !important;}
 .counterDiv{padding: 0rem 0rem 2rem 0rem;}
 .sixsechead{font-size: 16px !important;}
 .fifthsechead{font-size: 16px !important;}
@@ -317,8 +306,8 @@ nav img{width: 120px;}
 .tab-content{margin-bottom: 2rem; text-align: center !important;}
 #myTabContent{padding-left: 0;}
 .pdfdiv > div{padding: 2rem 0rem;flex-direction: column;display: flex;align-items: center}
-.sixsectextpdf{text-align: center;font-size: 11px;padding-top: 0.5rem;}
-.divrecslide img:first-child{padding-bottom: 0;}
+.sixsectextpdf{text-align: center;font-size: 10px;padding-top: 0.5rem;}
+
 .divrecslide span{font-size: 12px;}
 .abutton{flex-direction: column;}
 .sec1redhead{font-size: 14px;}
@@ -347,8 +336,8 @@ nav img{width: 120px;}
 .macline{font-size: 8px; padding-left: 0;} 
 .sixsechead{font-size: 16px;}
 .counterdivtext{font-size: 24px;}
-.counterdivspanwidth {font-size: 9px;}
-.arrowgradimg{padding: 2rem; width: 50%;}
+.counterdivspanwidth {font-size: 14px;}
+.arrowgradimg{padding: 2.5rem 2rem; width: 50%;}
 .arrowgrad{padding: 2rem;}
 .tab-pane{margin-top: 2rem;}
 .awesomeimg{padding: 0; margin-bottom: 0.5rem;}
@@ -370,8 +359,8 @@ nav img{width: 120px;}
 .navItemIndi div:last-child{text-align: center;}
 .headjpgsec4{padding-top: 0.5rem;}
 .digitalworldsec{bottom: 4rem;}
-.maclinearrow{z-index: 5; width: 80%; }
-.gradrectangle{right: -8%; bottom: -38%;}
+.maclinearrow{z-index: 5; width: 80%;margin-top: -1.7rem; }
+.gradrectangle{right: -0%; bottom: -35%;width: 400px; transform: rotate(335deg)}
 .maclinelast{color: #fff;}
 .maclineaf{text-align: center; padding-top: 0.3rem;}
 .macline{font-size: 12px;}
@@ -380,9 +369,12 @@ nav img{width: 120px;}
 .bigcolonimg{padding-bottom: .5rem !important;}
 .spanrecoversecslidername{padding-top: 0.8rem !important;}
 .iframeYoutube{height: auto;}
-.mcl{position: static;} }
+.mcl{position: static;}
+.tabdiv{padding-bottom: 2rem;} }
 
       @media screen and (max-width: 320px){
+        .counterdivspanwidth{font-size: 12px; width: auto;}
+.YoutubePopup .modal-content{width: 50% !important; margin-left: 0;}
 .sec1imgsec{flex-direction: column;}
 .sec1imgsec div:nth-child(2){margin: auto;}
 .bigcolonimg{ padding-left: 0.5rem !important}
@@ -408,7 +400,7 @@ digitalworldsec{bottom: 4rem;}
 .awesomefspan {font-size: 16px;}
 .spanrecoversecslider{ padding-left: 0.5rem; font-size: 9px !important;}
         /* .divrecslide img {padding-left: 0.5rem;} */
-.divrecslide img:first-child{width: 20px;}
+.divrecslide img:first-child{width: 20px;margin-left: 0.25rem;}
         /* .divrecslide img:nth-child(){width: 15px;} */
 .div-playbutton{width: 40px;}
 .divrecslide {padding-top:0;}
@@ -437,16 +429,16 @@ digitalworldsec{bottom: 4rem;}
       .navItemIndi div:last-child{text-align: center;}
       .headjpgsec4{font-size: 13px; padding-top: 1rem;}
       .spanjpgsec4{font-size: 12px;}
-      .nav-item{width: 80%;}
+      .nav-item{width: 80%; margin:2.5rem auto;}
       .fifthsechead, .sixsechead{font-size: 16px !important;}
-      .counterdivtext{font-size: 14px !important;}
+      .counterdivtext{font-size: 20px;}
       .spantryfifthsec{font-size: 13px;}
       .spansavefifthsec{font-size: 13px;}      
       .arrowgradimg{padding: 2rem; width: 80%;}
       .gradrecdiv {margin: 0 !important;}
       .arrowgrad {width: 70% !important;}    
       .gradrectangle{bottom: -39% !important;} 
-      .sixsectextpdf{font-size: 6px !important; padding-top: 0.25rem;}
+      .sixsectextpdf{padding-top: 0.25rem;}
       .leftfootgradspanone{font-size: 9px;}
       .leftfootgradspantwo{font-size: 8px;}
       #eigthsec>div>span{font-size: 12px;}
@@ -455,4 +447,6 @@ digitalworldsec{bottom: 4rem;}
       .maclineaf{text-align: center;}
 maclinearrow{z-index: 5; width: 80%;}
       .maclinearrow span{ color: #fff;}      
-      .spanrecoversecslider {font-size: 12px;}}
+      .spanrecoversecslider {font-size: 12px;}
+    .counterDiv{overflow: hidden;}
+    .divrecslide span{margin-left: 0.25rem;}}
